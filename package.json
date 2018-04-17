@@ -1,6 +1,16 @@
 {
-  "name": "tools",
-  "version": "1.0.0",
+  "name": "rooqs-tools",
+  "version": "0.0.1",
+  "description": "工具集",
   "main": "index.js",
-  "license": "MIT"
+  "repository": "git@github.com:RooQs/tools.git",
+  "author": "戎青松 <rongqs1@lenovo.com>",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "lib/*.js"
+  ],
+  "dependencies": {
+    "sprintf-js": "^1.1.1"
+  }
 }
